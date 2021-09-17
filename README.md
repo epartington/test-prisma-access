@@ -1,9 +1,3 @@
 # test-prisma-access
  
-This is a comment in the readme file
-
-second comment
-
-third comment
-
-fourth comment
+initial file
