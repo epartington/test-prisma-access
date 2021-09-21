@@ -1,0 +1,13 @@
+github usecase
+
+GIT_SSL_NO_VERIFY=true git clone https://github.com/epartington/test-prisma-access
+
+echo "this is content" >> testfile.txt
+
+git add testfile.txt
+
+git status
+
+git commit -m "this is a comment"
+
+GIT_SSL_NO_VERIFY=true git push https://github.com/epartington/test-prisma-access
